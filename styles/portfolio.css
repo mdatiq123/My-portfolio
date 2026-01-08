@@ -56,7 +56,7 @@ nav .menu a {
 header {
     background: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 38px 23px, bottom right;
     background-color: #FFF8F3;
     padding-top: 50px;
 }
@@ -115,6 +115,12 @@ nav {
     max-width: 584px;
     margin: 48px 38px 0 163px;
     vertical-align: middle;
+}
+
+#about,
+#skills,
+#resume {
+    padding-top: 130px;
 }
 
 #about {
@@ -198,16 +204,130 @@ nav {
     /* justify-content: flex-start; */
 
 }
-.skill-card h4{
+
+.skill-card h4 {
     display: flex;
     /* justify-content: flex-start; */
-    padding:30px 0 ;
+    padding: 30px 0;
     font-size: 20px;
     font-weight: bold;
     color: #181818;
 }
-.skill-card .skill-prag{
+
+.skill-card .skill-prag {
     text-align: start;
     font-weight: 16px;
     color: #757575;
 }
+
+#resume .section-heading h2 {
+    /* margin: 0 auto; */
+    max-width: 455px;
+    /* margin:123px 555px 121px 590px ; */
+    margin: 0 auto;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#resume .resume-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container hr {
+    margin: 30px 0;
+}
+
+.resume-container .section-title {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-card .card-title {
+    /* width: 405px; */
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
+}
+
+.resume-card .card-info {
+    /* width: 405px; */
+    font-size: 20px;
+    font-weight: 600px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-card .card-text {
+    /* width: 405px; */
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 28px;
+}
+
+#button .btn {
+    display: flex;
+    margin: 50px auto;
+    width: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+}
+ footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+
+ }
+ .footer-container .social{
+    max-width: 562px;
+ }
+ .footer-container h2{
+    color: #181818;
+    font-size: 50px;
+    margin-bottom: 20px;
+
+ }
+ .footer-container p{
+    color: #474747;
+    line-height:28px ;
+    margin-bottom: 30px;
+ }
+
+ .footer-container .icons a{
+    margin-right:24px ;
+ }
+
+ .footer-container form input[type="text" ]{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+ }
+ .footer-container form input[type="email"] , textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+ }
